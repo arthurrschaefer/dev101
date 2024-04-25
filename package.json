@@ -8,9 +8,13 @@
   "description": "Repository to learn how to code by scratch",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
   "scripts": {
-    "dev": "run dev"
+    "dev": "run dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT"
