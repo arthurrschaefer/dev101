@@ -1,3 +1,3 @@
 # dev101
 
-Repository to learn how to code by scratch
+Repository to learn how to code from scratch
