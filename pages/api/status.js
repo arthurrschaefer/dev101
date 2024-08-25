@@ -1,5 +1,5 @@
 function status(request, response) {
-    response.status(200).send("Arthur Schaefer estever aqui")
+    response.status(200).json({ chave: "Arthur Schaefer esteve aqui"})
 }
 
 export default status
